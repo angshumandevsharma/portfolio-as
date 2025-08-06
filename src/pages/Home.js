@@ -1,10 +1,15 @@
 import React from "react";
 
-export default function Home() {
+function Home() {
   return (
-    <div>
-      <h1>Welcome to AS's Portfolio</h1>
-      <p>Developer</p>
+    <div className="home">
+      <div className="hero">
+        <h1>Your Name</h1>
+        <h2>Photographer & Cinematographer</h2>
+        <p>Capturing moments that tell your story</p>
+      </div>
     </div>
   );
 }
+
+export default Home;

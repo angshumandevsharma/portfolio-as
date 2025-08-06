@@ -1,10 +1,12 @@
 import React from "react";
 
-export default function About() {
+function About() {
   return (
-    <div>
-      <h1>Welcome to AS's Portfolio</h1>
-      <p>Developer</p>
+    <div className="about">
+      <h1>About Me</h1>
+      <p>Your bio and experience will go here</p>
     </div>
   );
 }
+
+export default About;

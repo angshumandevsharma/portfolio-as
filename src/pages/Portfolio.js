@@ -1,11 +1,12 @@
 import React from "react";
-import Gallery from "../components/Gallery";
 
-export default function Portfolio() {
+function Portfolio() {
   return (
-    <div>
-      <h2>Portfolio</h2>
-      <Gallery />
+    <div className="portfolio">
+      <h1>Portfolio</h1>
+      <p>Your photo and video gallery will go here</p>
     </div>
   );
 }
+
+export default Portfolio;
